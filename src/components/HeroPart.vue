@@ -13,7 +13,7 @@
     <v-img
       class="pic"
       max-height="475"
-      max-width="288"
+      max-width="285"
       src="https://i.scdn.co/image/ab678e040000ed3aed58911aecc6dbc16949f40b"
     ></v-img>
     <v-container
@@ -55,7 +55,5 @@ export default {};
   transform: scale(1rem);
   transition: 2s scale 1s;
 }
-svg{
 
-}
 </style>
