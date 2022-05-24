@@ -12,8 +12,8 @@
     </svg>
     <v-img
       class="pic"
-      max-height="475"
-      max-width="288"
+      max-height="537"
+      max-width="340"
       src="https://i.scdn.co/image/ab678e040000ed3aed58911aecc6dbc16949f40b"
     ></v-img>
     <v-container
@@ -51,7 +51,7 @@ export default {};
 .pic {
   position: absolute;
   top: 7rem;
-  left: 16.9rem;
+  left: 18.8rem;
 }
 .scale:hover {
   transform: scale(1rem);
