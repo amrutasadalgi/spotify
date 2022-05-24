@@ -12,6 +12,9 @@
           ></path>
         </g>
       </svg>
+
+      
+      
       <v-spacer></v-spacer>
       <v-card class="hello">
         <v-btn color="black">
@@ -24,12 +27,18 @@
       <v-btn elevation="0" color="black">
         <a href="" class="white--text text-decoration-none"> Download</a>
       </v-btn>
-      <v-btn elevation="0" color="black">
-        <a href="" class="grey--text text-decoration-none"> Sign Up</a>
-      </v-btn>
-      <v-btn elevation="0" color="black">
-        <a href="" class="grey--text text-decoration-none"> Log In</a>
-      </v-btn>
+      <router-link to="/signup" elevation="0" color="black">
+
+      <v-btn color="black">
+          <p  class="white--text text-decoration-none"> sign up</p>
+        </v-btn> 
+      </router-link>
+      <router-link to="/login" elevation="0" color="black">
+               <v-btn color="black">
+          <p  class="white--text text-decoration-none"> login</p>
+        </v-btn> 
+
+      </router-link>
     </v-app-bar>
   </div>
 </template>

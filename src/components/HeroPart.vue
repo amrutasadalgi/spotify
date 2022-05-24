@@ -21,14 +21,14 @@
       height="600"
       class="mt-16 pt-16 mr-16 pr-10 ml-n-16"
     >
-      <v-cols>
+      <v-col>
         <v-content class="white--text display-3 font-weight-black pt-16"
           >Play millions of songs and podcasts, for free.</v-content
         >
         <v-btn rounded class="font-weight-bold mt-10 pa-6 scale"
           >GET SPOTIFY FREE</v-btn
         >
-      </v-cols>
+      </v-col>
     </v-container>
   </div>
 </template>
