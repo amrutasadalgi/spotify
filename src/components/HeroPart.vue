@@ -1,6 +1,6 @@
 <template>
-  <div class="main-container">
-    <svg viewBox="-250 -50 600 590">
+  <div class="main-container d-flex justify-end">
+    <svg viewBox="-233 210 560 50">
       <path
         d="M36.28,0H253.72A36.28,36.28,0,0,1,290,36.27v518a36.28,36.28,0,0,1-36.28,36.27H36.28A36.28,36.28,0,0,1,0,554.31v-518A36.28,36.28,0,0,1,36.28,0Z"
         fill="#fff"
@@ -17,9 +17,7 @@
       src="https://i.scdn.co/image/ab678e040000ed3aed58911aecc6dbc16949f40b"
     ></v-img>
     <v-container
-      width="400"
-      height="600"
-      class="mt-16 pt-16 mr-16 pr-10 ml-n-16"
+      class="mt-16 pt-16 mr-16 pr-10 col-6"
     >
       <v-col>
         <v-content class="white--text display-3 font-weight-black pt-16"
@@ -56,5 +54,8 @@ export default {};
 .scale:hover {
   transform: scale(1rem);
   transition: 2s scale 1s;
+}
+svg{
+
 }
 </style>
