@@ -28,7 +28,7 @@
         <a href="" class="grey--text text-decoration-none"> Sign Up</a>
       </v-btn>
       <v-btn elevation="0" color="black">
-        <a href="" class="grey--text text-decoration-none"> Log Out</a>
+        <a href="" class="grey--text text-decoration-none"> Log In</a>
       </v-btn>
     </v-app-bar>
   </div>
